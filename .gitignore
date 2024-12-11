@@ -1,0 +1,8 @@
+# pixi environments
+.pixi
+*.egg-info
+
+*.jpg
+*.png
+
+shape_predictor_68_face_landmarks.dat

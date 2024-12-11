@@ -1,0 +1,17 @@
+[project]
+authors = ["poly000 <1348292515a@gmail.com>"]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "opencv-report"
+platforms = ["win-64", "linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+opencv = ">=4.10.0,<5"
+ipykernel = ">=6.29.5,<7"
+dlib = ">=19.24.2,<20"
+python = "<3.13"
+numpy = ">=1.26.4,<2"
+matplotlib = ">=3.9.3,<4"
